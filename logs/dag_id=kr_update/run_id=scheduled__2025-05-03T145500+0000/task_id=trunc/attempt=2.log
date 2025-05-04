@@ -1,0 +1,22 @@
+[2025-05-03T15:02:01.848+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-03T15:02:01.873+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kr_update.trunc scheduled__2025-05-03T14:55:00+00:00 [queued]>
+[2025-05-03T15:02:01.887+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kr_update.trunc scheduled__2025-05-03T14:55:00+00:00 [queued]>
+[2025-05-03T15:02:01.888+0000] {taskinstance.py:2866} INFO - Starting attempt 2 of 2
+[2025-05-03T15:02:01.905+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): trunc> on 2025-05-03 14:55:00+00:00
+[2025-05-03T15:02:01.913+0000] {standard_task_runner.py:72} INFO - Started process 167 to run task
+[2025-05-03T15:02:01.918+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'kr_update', 'trunc', 'scheduled__2025-05-03T14:55:00+00:00', '--job-id', '46', '--raw', '--subdir', 'DAGS_FOLDER/kr_update.py', '--cfg-path', '/tmp/tmp8nttw5_1']
+[2025-05-03T15:02:01.920+0000] {standard_task_runner.py:105} INFO - Job 46: Subtask trunc
+[2025-05-03T15:02:01.992+0000] {task_command.py:467} INFO - Running <TaskInstance: kr_update.trunc scheduled__2025-05-03T14:55:00+00:00 [running]> on host de293b43eb40
+[2025-05-03T15:02:02.100+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kr_update' AIRFLOW_CTX_TASK_ID='trunc' AIRFLOW_CTX_EXECUTION_DATE='2025-05-03T14:55:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-03T14:55:00+00:00'
+[2025-05-03T15:02:02.102+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-03T15:02:02.106+0000] {kr_update.py:22} INFO - trunc task started
+[2025-05-03T15:02:02.109+0000] {kr_update.py:24} INFO - trunc sql file reading..
+[2025-05-03T15:02:02.110+0000] {kr_update.py:26} INFO - sql file read succeeded.
+[2025-05-03T15:02:02.131+0000] {base.py:84} INFO - Retrieving connection 'kr_study'
+[2025-05-03T15:02:02.282+0000] {kr_update.py:29} INFO - truncate done
+[2025-05-03T15:02:02.283+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-03T15:02:02.296+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-03T15:02:02.297+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=kr_update, task_id=trunc, run_id=scheduled__2025-05-03T14:55:00+00:00, execution_date=20250503T145500, start_date=20250503T150201, end_date=20250503T150202
+[2025-05-03T15:02:02.332+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-03T15:02:02.357+0000] {taskinstance.py:3895} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-03T15:02:02.360+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
