@@ -1,0 +1,18 @@
+[2025-05-05T05:27:08.209+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-05T05:27:08.231+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: kr_update.copy scheduled__2025-05-03T15:45:00+00:00 [queued]>
+[2025-05-05T05:27:08.243+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: kr_update.copy scheduled__2025-05-03T15:45:00+00:00 [queued]>
+[2025-05-05T05:27:08.244+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2025-05-05T05:27:08.262+0000] {taskinstance.py:2889} INFO - Executing <Task(_PythonDecoratedOperator): copy> on 2025-05-03 15:45:00+00:00
+[2025-05-05T05:27:08.268+0000] {standard_task_runner.py:72} INFO - Started process 92 to run task
+[2025-05-05T05:27:08.272+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'kr_update', 'copy', 'scheduled__2025-05-03T15:45:00+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/kr_update.py', '--cfg-path', '/tmp/tmpzxkdv9wp']
+[2025-05-05T05:27:08.280+0000] {standard_task_runner.py:105} INFO - Job 70: Subtask copy
+[2025-05-05T05:27:08.341+0000] {task_command.py:467} INFO - Running <TaskInstance: kr_update.copy scheduled__2025-05-03T15:45:00+00:00 [running]> on host c9127454b4f3
+[2025-05-05T05:27:08.452+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='kr_update' AIRFLOW_CTX_TASK_ID='copy' AIRFLOW_CTX_EXECUTION_DATE='2025-05-03T15:45:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-03T15:45:00+00:00'
+[2025-05-05T05:27:08.454+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-05T05:27:08.488+0000] {base.py:84} INFO - Retrieving connection 'kr_study'
+[2025-05-05T05:27:08.575+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-05T05:27:08.588+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-05T05:27:08.589+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=kr_update, task_id=copy, run_id=scheduled__2025-05-03T15:45:00+00:00, execution_date=20250503T154500, start_date=20250505T052708, end_date=20250505T052708
+[2025-05-05T05:27:08.656+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-05T05:27:08.676+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-05T05:27:08.680+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

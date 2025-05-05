@@ -1832,3 +1832,88 @@ File Path                       PID    Runtime      # DAGs    # Errors  Last Run
 /opt/airflow/dags/kr_update.py                           1           0  0.17s           2025-05-03T15:44:18                      12
 ================================================================================
 [2025-05-03T15:45:03.988+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-05-05T05:27:03.135+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2025-05-05T05:27:03.136+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-05-05T05:27:03.137+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-05-05T05:27:03.137+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-05-05T05:27:03.227+0000] {manager.py:824} INFO - There are 3 files in /opt/airflow/dags
+[2025-05-05T05:27:03.429+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                         PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run      Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  ----------  ----------------------
+/opt/airflow/dags/cn_update.py     71  0.03s             0           0                                                   0
+/opt/airflow/dags/kr_update.py                           0           0                                                   0
+/opt/airflow/dags/us_update.py     70  0.04s             0           0                                                   0
+================================================================================
+[2025-05-05T05:27:33.723+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cn_update.py                           1           0  0.84s           2025-05-05T05:27:04                      45
+/opt/airflow/dags/us_update.py                           1           0  0.84s           2025-05-05T05:27:04                      45
+/opt/airflow/dags/kr_update.py                           1           0  0.23s           2025-05-05T05:27:04                      12
+================================================================================
+[2025-05-05T05:28:04.328+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cn_update.py                           1           0  0.24s           2025-05-05T05:27:35                      12
+/opt/airflow/dags/us_update.py                           1           0  0.23s           2025-05-05T05:27:35                      12
+/opt/airflow/dags/kr_update.py                           1           0  0.22s           2025-05-05T05:27:35                      12
+================================================================================
+[2025-05-05T05:28:34.848+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/us_update.py                           1           0  0.20s           2025-05-05T05:28:05                      12
+/opt/airflow/dags/cn_update.py                           1           0  0.19s           2025-05-05T05:28:05                      12
+/opt/airflow/dags/kr_update.py                           1           0  0.18s           2025-05-05T05:28:05                      12
+================================================================================
+[2025-05-05T05:29:05.453+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/kr_update.py                           1           0  0.21s           2025-05-05T05:28:36                      12
+/opt/airflow/dags/cn_update.py                           1           0  0.21s           2025-05-05T05:28:36                      12
+/opt/airflow/dags/us_update.py                           1           0  0.21s           2025-05-05T05:28:36                      12
+================================================================================
+[2025-05-05T05:29:35.971+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/us_update.py                           1           0  0.18s           2025-05-05T05:29:06                      12
+/opt/airflow/dags/kr_update.py                           1           0  0.17s           2025-05-05T05:29:06                      12
+/opt/airflow/dags/cn_update.py                           1           0  0.17s           2025-05-05T05:29:06                      12
+================================================================================
+[2025-05-05T05:30:06.487+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/us_update.py                           1           0  0.20s           2025-05-05T05:29:37                      12
+/opt/airflow/dags/cn_update.py                           1           0  0.17s           2025-05-05T05:29:37                      12
+/opt/airflow/dags/kr_update.py                           1           0  0.17s           2025-05-05T05:29:37                      12
+================================================================================
+[2025-05-05T05:30:36.982+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cn_update.py                           1           0  0.19s           2025-05-05T05:30:07                      12
+/opt/airflow/dags/us_update.py                           1           0  0.18s           2025-05-05T05:30:07                      12
+/opt/airflow/dags/kr_update.py                           1           0  0.18s           2025-05-05T05:30:07                      12
+================================================================================

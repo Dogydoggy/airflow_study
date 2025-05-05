@@ -1,0 +1,56 @@
+[2025-05-05T05:27:04.263+0000] {processor.py:186} INFO - Started process (PID=78) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:27:04.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:27:04.269+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.268+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:27:04.330+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:27:04.372+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.371+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:27:04.412+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.412+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:27:04.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.196 seconds
+[2025-05-05T05:27:35.062+0000] {processor.py:186} INFO - Started process (PID=95) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:27:35.064+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:27:35.068+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:35.068+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:27:35.127+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:27:35.168+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:35.167+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:27:35.204+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:35.203+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:27:35.235+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.184 seconds
+[2025-05-05T05:28:05.588+0000] {processor.py:186} INFO - Started process (PID=104) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:28:05.589+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:28:05.592+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:05.591+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:28:05.642+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:28:05.676+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:05.676+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:28:05.707+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:05.707+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:28:05.734+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.156 seconds
+[2025-05-05T05:28:36.124+0000] {processor.py:186} INFO - Started process (PID=113) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:28:36.125+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:28:36.129+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:36.129+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:28:36.185+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:28:36.225+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:36.225+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:28:36.263+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:36.263+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:28:36.290+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.177 seconds
+[2025-05-05T05:29:06.694+0000] {processor.py:186} INFO - Started process (PID=122) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:29:06.696+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:29:06.699+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:06.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:29:06.744+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:29:06.777+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:06.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:29:06.809+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:06.808+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:29:06.832+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.146 seconds
+[2025-05-05T05:29:37.206+0000] {processor.py:186} INFO - Started process (PID=131) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:29:37.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:29:37.209+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:37.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:29:37.253+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:29:37.287+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:37.287+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:29:37.319+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:37.319+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:29:37.343+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.145 seconds
+[2025-05-05T05:30:07.725+0000] {processor.py:186} INFO - Started process (PID=150) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:30:07.726+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:30:07.729+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:07.729+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:30:07.776+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:30:07.812+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:07.812+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:30:07.845+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:07.845+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:30:07.871+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.155 seconds
+[2025-05-05T05:30:38.223+0000] {processor.py:186} INFO - Started process (PID=159) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:30:38.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:30:38.226+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:38.226+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:30:38.272+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:30:38.303+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:38.303+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:30:38.333+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:38.333+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:30:38.358+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.145 seconds

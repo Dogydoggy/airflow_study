@@ -1,0 +1,64 @@
+[2025-05-05T05:27:03.414+0000] {processor.py:186} INFO - Started process (PID=70) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:27:03.416+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:27:03.419+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:03.419+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:27:03.613+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:27:04.015+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.013+0000] {override.py:1901} INFO - Created Permission View: can edit on DAG:us_update
+[2025-05-05T05:27:04.042+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.041+0000] {override.py:1901} INFO - Created Permission View: can read on DAG:us_update
+[2025-05-05T05:27:04.060+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.060+0000] {override.py:1901} INFO - Created Permission View: can delete on DAG:us_update
+[2025-05-05T05:27:04.078+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.077+0000] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:us_update
+[2025-05-05T05:27:04.095+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.094+0000] {override.py:1901} INFO - Created Permission View: can read on DAG Run:us_update
+[2025-05-05T05:27:04.110+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.110+0000] {override.py:1901} INFO - Created Permission View: can create on DAG Run:us_update
+[2025-05-05T05:27:04.123+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.122+0000] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:us_update
+[2025-05-05T05:27:04.124+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.123+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:27:04.150+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.150+0000] {dag.py:3262} INFO - Creating ORM DAG for us_update
+[2025-05-05T05:27:04.168+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:04.167+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:20:00+00:00, run_after=2025-05-05 05:25:00+00:00
+[2025-05-05T05:27:04.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.800 seconds
+[2025-05-05T05:27:34.817+0000] {processor.py:186} INFO - Started process (PID=93) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:27:34.818+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:27:34.822+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:34.821+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:27:34.893+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:27:34.936+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:34.936+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:27:34.972+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:27:34.972+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:27:35.002+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.197 seconds
+[2025-05-05T05:28:05.371+0000] {processor.py:186} INFO - Started process (PID=102) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:28:05.372+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:28:05.375+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:05.375+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:28:05.428+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:28:05.466+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:05.465+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:28:05.499+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:05.498+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:28:05.531+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.171 seconds
+[2025-05-05T05:28:35.909+0000] {processor.py:186} INFO - Started process (PID=111) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:28:35.910+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:28:35.913+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:35.912+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:28:35.966+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:28:36.001+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:36.001+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:28:36.039+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:28:36.039+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:28:36.069+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.170 seconds
+[2025-05-05T05:29:06.500+0000] {processor.py:186} INFO - Started process (PID=120) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:29:06.501+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:29:06.505+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:06.504+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:29:06.555+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:29:06.590+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:06.590+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:29:06.622+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:06.622+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:29:06.646+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.155 seconds
+[2025-05-05T05:29:37.010+0000] {processor.py:186} INFO - Started process (PID=129) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:29:37.012+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:29:37.014+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:37.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:29:37.060+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:29:37.095+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:37.095+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:29:37.128+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:29:37.128+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:25:00+00:00, run_after=2025-05-05 05:30:00+00:00
+[2025-05-05T05:29:37.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.158 seconds
+[2025-05-05T05:30:07.530+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:30:07.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:30:07.535+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:07.534+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:30:07.585+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:30:07.617+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:07.617+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:30:07.646+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:07.646+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:30:07.678+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.157 seconds
+[2025-05-05T05:30:38.025+0000] {processor.py:186} INFO - Started process (PID=157) to work on /opt/airflow/dags/us_update.py
+[2025-05-05T05:30:38.026+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/us_update.py for tasks to queue
+[2025-05-05T05:30:38.029+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:38.029+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/us_update.py
+[2025-05-05T05:30:38.077+0000] {processor.py:925} INFO - DAG(s) 'us_update' retrieved from /opt/airflow/dags/us_update.py
+[2025-05-05T05:30:38.114+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:38.113+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:30:38.144+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:30:38.143+0000] {dag.py:4180} INFO - Setting next_dagrun for us_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:30:38.173+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/us_update.py took 0.157 seconds
