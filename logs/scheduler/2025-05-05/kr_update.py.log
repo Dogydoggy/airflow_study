@@ -96,3 +96,17 @@
 [2025-05-05T05:33:41.540+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:33:41.540+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-05T05:33:41.576+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:33:41.576+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
 [2025-05-05T05:33:41.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.173 seconds
+[2025-05-05T05:34:11.979+0000] {processor.py:186} INFO - Started process (PID=222) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:34:11.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:34:11.983+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:11.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:34:12.033+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:34:12.068+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:12.068+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:34:12.101+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:12.101+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:34:12.126+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.157 seconds
+[2025-05-05T05:34:42.479+0000] {processor.py:186} INFO - Started process (PID=231) to work on /opt/airflow/dags/kr_update.py
+[2025-05-05T05:34:42.480+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/kr_update.py for tasks to queue
+[2025-05-05T05:34:42.484+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:42.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:34:42.528+0000] {processor.py:925} INFO - DAG(s) 'kr_update' retrieved from /opt/airflow/dags/kr_update.py
+[2025-05-05T05:34:42.561+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:42.561+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:34:42.592+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:42.591+0000] {dag.py:4180} INFO - Setting next_dagrun for kr_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:34:42.615+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/kr_update.py took 0.145 seconds

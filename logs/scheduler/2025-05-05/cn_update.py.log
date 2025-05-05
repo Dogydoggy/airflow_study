@@ -104,3 +104,17 @@
 [2025-05-05T05:33:41.331+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:33:41.331+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-05-05T05:33:41.369+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:33:41.368+0000] {dag.py:4180} INFO - Setting next_dagrun for cn_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
 [2025-05-05T05:33:41.398+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cn_update.py took 0.175 seconds
+[2025-05-05T05:34:11.788+0000] {processor.py:186} INFO - Started process (PID=221) to work on /opt/airflow/dags/cn_update.py
+[2025-05-05T05:34:11.790+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cn_update.py for tasks to queue
+[2025-05-05T05:34:11.792+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:11.792+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cn_update.py
+[2025-05-05T05:34:11.840+0000] {processor.py:925} INFO - DAG(s) 'cn_update' retrieved from /opt/airflow/dags/cn_update.py
+[2025-05-05T05:34:11.874+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:11.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:34:11.907+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:11.906+0000] {dag.py:4180} INFO - Setting next_dagrun for cn_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:34:11.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cn_update.py took 0.151 seconds
+[2025-05-05T05:34:42.291+0000] {processor.py:186} INFO - Started process (PID=230) to work on /opt/airflow/dags/cn_update.py
+[2025-05-05T05:34:42.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/cn_update.py for tasks to queue
+[2025-05-05T05:34:42.296+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:42.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/cn_update.py
+[2025-05-05T05:34:42.350+0000] {processor.py:925} INFO - DAG(s) 'cn_update' retrieved from /opt/airflow/dags/cn_update.py
+[2025-05-05T05:34:42.384+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:42.383+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-05T05:34:42.416+0000] {logging_mixin.py:190} INFO - [2025-05-05T05:34:42.416+0000] {dag.py:4180} INFO - Setting next_dagrun for cn_update to 2025-05-05 05:30:00+00:00, run_after=2025-05-05 05:35:00+00:00
+[2025-05-05T05:34:42.440+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/cn_update.py took 0.157 seconds

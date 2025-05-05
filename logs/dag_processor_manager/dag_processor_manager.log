@@ -1979,3 +1979,23 @@ File Path                       PID    Runtime      # DAGs    # Errors  Last Run
 /opt/airflow/dags/kr_update.py                           1           0  0.20s           2025-05-05T05:33:11                      12
 /opt/airflow/dags/us_update.py                           1           0  0.20s           2025-05-05T05:33:10                      12
 ================================================================================
+[2025-05-05T05:34:10.735+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cn_update.py                           1           0  0.21s           2025-05-05T05:33:41                      12
+/opt/airflow/dags/kr_update.py                           1           0  0.20s           2025-05-05T05:33:41                      12
+/opt/airflow/dags/us_update.py                           1           0  0.20s           2025-05-05T05:33:41                      12
+================================================================================
+[2025-05-05T05:34:41.235+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                       PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/cn_update.py                           1           0  0.19s           2025-05-05T05:34:11                      12
+/opt/airflow/dags/us_update.py                           1           0  0.19s           2025-05-05T05:34:11                      12
+/opt/airflow/dags/kr_update.py                           1           0  0.18s           2025-05-05T05:34:12                      12
+================================================================================
